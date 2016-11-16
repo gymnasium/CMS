@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /news/
-baseurl: /CMS
+baseurl: /cms
 ---
 
 # News and Events
