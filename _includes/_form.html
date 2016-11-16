@@ -1,0 +1,35 @@
+{% if page.register %}
+
+
+<h1>Register for Webinar {{ page.webinar_ID }}</h1>
+
+<form>
+<table border="0" cellpadding="5" cellspacing="0" bgcolor="#E0E0E0">
+<tr>
+<td align="right">Webinar key:</td>
+<td><input name="webinar" type="text" size="30" maxlength="30"></td>
+</tr>
+<tr>
+<td align="right">First name:</td>
+<td><input name="registrant.givenName" type="text" size="30" maxlength="30"></td>
+</tr>
+<tr>
+<td align="right">Last name:</td>
+<td><input name="registrant.surname" type="text" size="30" maxlength="50"></td>
+</tr>
+<tr>
+<td align="right">Email:</td>
+<td><input name="registrant.email" type="text" size="30" maxlength="50"></td>
+</tr>
+<input type="hidden" name="registrant.source" value="My Promocode ABC123">
+<tr>
+<td></td>
+<td>
+<input type="submit" value=" OK ">
+<input type="reset" value=" Cancel">
+</td>
+</tr>
+</table>
+</form>
+
+{% endif %}
