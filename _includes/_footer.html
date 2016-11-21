@@ -1,8 +1,47 @@
 <hr>
+<strong>
+<pre>Debug</pre>
+</strong>
 <pre>
   Page Last Built: {{ site.time }}
 </pre>
+<script>
+  var loadPageContentFromParam = function(){
+    var article = window.location.search;
+    if(article) {
+      //we have specified a subpage to load from gh-pages
+      var baseURL = 'https://gymnasium.github.io/cms/';
+      var articleURL =  baseURL + article.replace('?', '');
 
+      console.log('Url is', articleURL);
+
+      $.get(articleURL, function(data, b, c, d){
+        $('.cms-loaded').html(data);
+        changeLinksToParams();
+      });
+    }
+    else {
+      console.log('No event specificied, loading default page.')
+    }
+  };
+
+  var changeLinksToParams = function(){
+    var links = $('.cms-loaded a');
+
+    $(links).each(function(idx, link){
+      var updated = window.location.origin + window.location.pathname + link.pathname.replace('/cms/','?');
+      link.href=updated;
+    });
+  };
+
+  $(function(){
+    if (window.location.origin.includes("thegymnasium.com"))
+    {
+      loadPageContentFromParam();
+      changeLinksToParams();
+    }
+  })
+</script>
 
 
 </body>
