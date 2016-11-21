@@ -1,35 +1,47 @@
-{% if page.register %}
+<!-- FOR DEBUGGING ONLY -->
+<pre>Including form for {{ page.webinar_ID }}</pre>
+<!-- FOR DEBUGGING ONLY -->
 
 
-<h1>Register for Webinar {{ page.webinar_ID }}</h1>
+<form  class="events-form-registration" id="events-form" target="events-form-success" action="https://attendee.gotowebinar.com/registration.tmpl" method="post">
 
-<form>
-<table border="0" cellpadding="5" cellspacing="0" bgcolor="#E0E0E0">
-<tr>
-<td align="right">Webinar key:</td>
-<td><input name="webinar" type="text" size="30" maxlength="30"></td>
-</tr>
-<tr>
-<td align="right">First name:</td>
-<td><input name="registrant.givenName" type="text" size="30" maxlength="30"></td>
-</tr>
-<tr>
-<td align="right">Last name:</td>
-<td><input name="registrant.surname" type="text" size="30" maxlength="50"></td>
-</tr>
-<tr>
-<td align="right">Email:</td>
-<td><input name="registrant.email" type="text" size="30" maxlength="50"></td>
-</tr>
-<input type="hidden" name="registrant.source" value="My Promocode ABC123">
-<tr>
-<td></td>
-<td>
-<input type="submit" value=" OK ">
-<input type="reset" value=" Cancel">
-</td>
-</tr>
-</table>
+  <fieldset>
+    <legend>Join Us</legend>
+    <input type="hidden" id="webinar" name="webinar" value="{{ page.webinar_ID }}">
+    <ul>
+      <li>
+        <label id="registrant.givenNameLabel"><b>First Name</b> (Required)</label>
+        <input required type="text" id="registrant.givenName" name="registrant.givenName" value="" maxlength="128" tabindex="2">
+      </li>
+      <li>
+        <label id="registrant.surnameLabel"><b>Last Name</b> (Required)</label>
+        <input required type="text" id="registrant.surname" name="registrant.surname" value="" maxlength="128" tabindex="3">
+      </li>
+      <li>
+        <label id="registrant.emailLabel"><b>Email Address</b> (Required)</label>
+        <input required type="email" id="registrant.email" name="registrant.email" value="" maxlength="128" tabindex="4">
+      </li>
+    <ul>
+  </fieldset>
+
+  <p class="small-print"><small>Webinar organizers are prohibited from soliciting confidential personal information (credit card information, social security numbers, etc.) in the registration form. This questionnaire is not intended to handle sensitive data.</small></p>
+
+  <input type="hidden" name="customRegistrationSubmission.answers[0].questionKey" value="41565741">
+
+  <label for="customRegistrationSubmission.answers_0.text"><b>Do you have a question for the presenters?</b> (Optional)</label>
+  <textarea type="text" class="optional" id="customRegistrationSubmission.answers_0.text" name="customRegistrationSubmission.answers[0].text" tabindex="5" value="" maxlength="128" placeholder="128 Character Limit."></textarea>
+
+  <button class="gym-button" type="submit" id="registration.submit.button" name="registration.submit.button" tabindex="5"><b>Register Now</b></button>
+
 </form>
 
-{% endif %}
+  <script>
+  $("#events-form").validate({
+    rules: {
+      name: {
+        required: true,
+        minlength: 2
+      }
+    }
+  });
+  </script>

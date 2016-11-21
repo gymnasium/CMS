@@ -1,11 +1,19 @@
 {% include _header.html %}
 
 <body>
-<h2>EVENT!</h2>
+<h2>LIVE EVENT</h2>
 <ul>
   <li><a href="{{ site.url }}">Link to News and Events</a></li>
   <li><a href="{{ site.url }}/events/">Link to Events landing page</a></li>
 </ul>
+
+{% if page.register %}
+{% include _form.html %}
+{% endif %}
+
+{% if page.video %}
+{% include _video.html %}
+{% endif %}
 
     {{ content }}
 
