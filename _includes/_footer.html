@@ -35,7 +35,8 @@
   };
 
   $(function(){
-    if (window.location.origin.includes("thegymnasium.com"))
+    if (window.location.origin.includes('thegymnasium.com') ||
+       window.location.origin.includes('localhost:8000'))
     {
       loadPageContentFromParam();
       changeLinksToParams();
