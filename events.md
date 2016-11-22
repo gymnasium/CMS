@@ -8,12 +8,12 @@ baseurl:
 
 This page intentionally left blank
 
-<!-- ### Events -->
+### Events
 
-<!-- <dl>
+<dl>
     {% assign sorted = (site.events | sort: 'date') | reverse %}
     {% for item in sorted %}
     <dt><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></dt>
     <dd>{{ item.date  | date: '%B %d, %Y' }}</dd>
     {% endfor %}
-</dl> -->
+</dl>
