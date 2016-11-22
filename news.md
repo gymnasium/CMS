@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: gym-default
 permalink: /news/
 baseurl: /
 ---
