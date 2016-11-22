@@ -1,12 +1,13 @@
 ---
-layout: default
+title: "This is the root page"
+layout: gym-default
 permalink: /
-baseurl:
+baseurl: /
 ---
 
 # Gymnasium Pseudo-CMS
 
-## This is a top-level landing page
+<!-- ## This is a top-level landing page
 
 ### [News and Events Landing]({{ site.baseurl}}/news/)
 
@@ -19,7 +20,7 @@ baseurl:
 ~~#### [Press Releases (sub) Landing]({{ site.baseurl}}/pr/)~~
 
 - (This should eventually live at - `http://thegymnasium/pr/`)
-
+ -->
 ---
 
 - Debug Details
