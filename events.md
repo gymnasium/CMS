@@ -1,15 +1,10 @@
 ---
 layout: gym-default
+title: "Events"
 permalink: /events/
 baseurl:
 ---
-
-# Events Landing Page
-
-This page intentionally left blank
-
-### Events
-
+{% comment %}
 <dl>
     {% assign sorted = (site.events | sort: 'date') | reverse %}
     {% for item in sorted %}
@@ -17,3 +12,4 @@ This page intentionally left blank
     <dd>{{ item.date  | date: '%B %d, %Y' }}</dd>
     {% endfor %}
 </dl>
+{% endcomment %}
