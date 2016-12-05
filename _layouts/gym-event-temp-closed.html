@@ -43,40 +43,52 @@
 
 <p class="call-out">A conversation about the past, present, and future state of responsive web design with special guests Ethan Marcotte and Karen McGrane.</p>
 
-<form class="event-form" id="event-form" action="https://attendee.gotowebinar.com/registration.tmpl" method="post">
+<div class="registration-closed" role="note">
+  <h2>Registration is closed.</h2>
+  <p>Please complete the form below to receive a link to the recording (in approximately two weeks).</p>
+</div>
+
+<form class="event-form" id="event-form" action="https://docs.google.com/forms/d/e/1FAIpQLScyOniE64d4Uqh_y7zp4xr9rwwCu3fh7rP7fb4112VI9zMLdA/formResponse" method="post" target="google-response">
   <fieldset>
-    <legend>Join Us</legend>
-    <input type="hidden" id="webinar" name="webinar" value="1922962652293998851">
+    <legend>I’d like to see the recording</legend>
     <ul>
       <li>
         <label id="registrant.givenNameLabel"><b>First Name</b> (Required)</label>
-        <input required type="text" id="registrant.givenName" name="registrant.givenName" value="" maxlength="128" tabindex="2">
+        <input required type="text" id="entry.79581990" name="entry.79581990" value="" maxlength="128" tabindex="1">
       </li>
       <li>
         <label id="registrant.surnameLabel"><b>Last Name</b> (Required)</label>
-        <input required type="text" id="registrant.surname" name="registrant.surname" value="" maxlength="128" tabindex="3">
+        <input required type="text" id="entry.995082793" name="entry.995082793" value="" maxlength="128" tabindex="2">
       </li>
       <li>
         <label id="registrant.emailLabel"><b>Email Address</b> (Required)</label>
-        <input required type="email" id="registrant.email" name="registrant.email" value="" maxlength="128" tabindex="4">
+        <input required type="email" id="emailAddress" name="emailAddress" value="" maxlength="128" tabindex="4">
       </li>
     </ul>
   </fieldset>
 
-  <p class="small-print"><small>Webinar organizers are prohibited from soliciting confidential personal information (credit card information, social security numbers, etc.) in the registration form. This questionnaire is not intended to handle sensitive data.</small></p>
+  <script>
+  function redirect() {
+    // quit if this function has already been called
+    if (arguments.callee.done) return;
+    // flag this function so we don’t do the same thing twice
+    arguments.callee.done = true;
+  document.getElementById("google-response").onload = function() {
+    window.self.location.href = "{{site.baseurl}}/thanks.html";
+  }
+  };
+  </script>
 
-  <input type="hidden" name="customRegistrationSubmission.answers[0].questionKey" value="40547231">
-
-  <label for="customRegistrationSubmission.answers_0.text"><b>Do you have a question for the presenters?</b> (Optional)</label>
-  <textarea class="optional" id="customRegistrationSubmission.answers_0.text" name="customRegistrationSubmission.answers[0].text" tabindex="5" maxlength="128" placeholder="128 Character Limit."></textarea>
+  <iframe id="google-response" src="" onload="redirect()" hidden></iframe>
 
   <!-- marketing speak -->
+
   <input type="hidden" name="utm_source" id="utm_source">
   <input type="hidden" name="utm_medium" id="utm_medium">
   <input type="hidden" name="utm_content" id="utm_content">
   <input type="hidden" name="utm_campaign" id="utm_campaign">
 
-  <button class="gym-button" type="submit" id="registration.submit.button" name="registration.submit.button" tabindex="5"><b>Register Now</b></button>
+  <button class="gym-button" type="submit" tabindex="4"><b>Submit</b></button>
 
 </form>
 

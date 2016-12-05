@@ -1,5 +1,5 @@
 ---
-title: "The State of Responsive Design"
+title: "Live Event Registration | Gymnasium"
 layout: gym-event-temp
 permalink: /events/state_of_responsive_design/
 collection: events

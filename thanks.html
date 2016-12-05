@@ -2,17 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="{{site.baseurl}}/css/fonts.css">
-  <link rel="stylesheet" href="{{site.baseurl}}/css/modern-screen.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/modern-screen.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }}</title>
-  <meta name="description" content="A conversation about the past, present, and future state of responsive web design with special guests Ethan Marcotte and Karen McGrane hosted by Aquent Gymnasium on Thursday, December 8, 2–3 PM ET">
+  <title>Thank You | Gymnasium</title>
+  <meta name="description" content="A conversation about the past, present, and future state of responsive web design with special guests Ethan Marcotte and Karen McGrane hosted by Aquent Gymnasium on Thursday, December 8, 2–3 PM ET.">
   <meta name="author" content="Aquent Gymnasium">
-  <meta property="og:image" content="{{site.baseurl}}/img/state-of-rwd-live-event.png">
- <meta property="og:description" content="A conversation about the past, present, and future state of responsive web design with special guests Ethan Marcotte and Karen McGrane hosted by Aquent Gymnasium on Thursday, December 8, 2–3 PM ET.">
+  <meta property="og:image" content="img/state-of-rwd-live-event.png">
+  <meta property="og:description" content="A conversation about the past, present, and future state of responsive web design with special guests Ethan Marcotte and Karen McGrane hosted by Aquent Gymnasium on Thursday, December 8, 2–3 PM ET.">
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.slim.min.js"></script>
   <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.1/jquery.validate.min.js"></script>
-    {% include favicon.html %}
 </head>
 <body>
 
@@ -20,7 +19,7 @@
   <div class="structure">
 
   <div class="logo">
-    <a href="https://thegymnasium.com" title="Home"><img alt="Aquent Gymnasium (The Gymnasium)" srcset="{{site.baseurl}}/img/gymnasium-logo-ko.svg" src="img/gymnasium-logo-ko.png" role="heading"></a>
+    <a href="https://thegymnasium.com" title="Home"><img alt="Aquent Gymnasium (The Gymnasium)" srcset="img/gymnasium-logo-ko.svg" src="img/gymnasium-logo-ko.png" role="heading"></a>
   </div>
 
   </div>
@@ -35,6 +34,11 @@
   <h2>Registration</h2>
 </header>
 
+<div class="registration-closed" role="note">
+  <h2>Thank you.</h2>
+  <p>You’ll receive a link to the recording in approximately two weeks.</p>
+</div>
+
 <header class="event-banner-hero">
   <h1>The State of Responsive <span class="nowrap">Web Design</span></h1>
   <h2>with Ethan Marcotte and <span class="nowrap">Karen McGrane</span></h2>
@@ -43,42 +47,9 @@
 
 <p class="call-out">A conversation about the past, present, and future state of responsive web design with special guests Ethan Marcotte and Karen McGrane.</p>
 
-<form class="event-form" id="event-form" action="https://attendee.gotowebinar.com/registration.tmpl" method="post">
-  <fieldset>
-    <legend>Join Us</legend>
-    <input type="hidden" id="webinar" name="webinar" value="1922962652293998851">
-    <ul>
-      <li>
-        <label id="registrant.givenNameLabel"><b>First Name</b> (Required)</label>
-        <input required type="text" id="registrant.givenName" name="registrant.givenName" value="" maxlength="128" tabindex="2">
-      </li>
-      <li>
-        <label id="registrant.surnameLabel"><b>Last Name</b> (Required)</label>
-        <input required type="text" id="registrant.surname" name="registrant.surname" value="" maxlength="128" tabindex="3">
-      </li>
-      <li>
-        <label id="registrant.emailLabel"><b>Email Address</b> (Required)</label>
-        <input required type="email" id="registrant.email" name="registrant.email" value="" maxlength="128" tabindex="4">
-      </li>
-    </ul>
-  </fieldset>
-
-  <p class="small-print"><small>Webinar organizers are prohibited from soliciting confidential personal information (credit card information, social security numbers, etc.) in the registration form. This questionnaire is not intended to handle sensitive data.</small></p>
-
-  <input type="hidden" name="customRegistrationSubmission.answers[0].questionKey" value="40547231">
-
-  <label for="customRegistrationSubmission.answers_0.text"><b>Do you have a question for the presenters?</b> (Optional)</label>
-  <textarea class="optional" id="customRegistrationSubmission.answers_0.text" name="customRegistrationSubmission.answers[0].text" tabindex="5" maxlength="128" placeholder="128 Character Limit."></textarea>
-
-  <!-- marketing speak -->
-  <input type="hidden" name="utm_source" id="utm_source">
-  <input type="hidden" name="utm_medium" id="utm_medium">
-  <input type="hidden" name="utm_content" id="utm_content">
-  <input type="hidden" name="utm_campaign" id="utm_campaign">
-
-  <button class="gym-button" type="submit" id="registration.submit.button" name="registration.submit.button" tabindex="5"><b>Register Now</b></button>
-
-</form>
+<div class="registration-closed" role="note">
+  <h2>Registration is closed.</h2>
+</div>
 
 <p>We are pleased to welcome Ethan and Karen for a live conversation to share their retrospective view along with their vision for the future of the responsive web.</p>
 
@@ -97,13 +68,13 @@
 </header>
 
 <section class="event-bio">
-  <img alt="Ethan Marcotte" src="{{site.baseurl}}/img/bio-ethan-marcotte.jpg">
+  <img alt="Ethan Marcotte" src="img/bio-ethan-marcotte.jpg">
   <h2>Ethan Marcotte</h2>
   <p>Ethan, perhaps best known for coining the term “responsive web design”,  is an author, speaker, and web designer who is passionate about beautiful design, elegant code, and the intersection of the two. Over the years, his clientele have included <cite>People Magazine</cite>, <cite>New York Magazine</cite>, the Sundance Film Festival, and <cite>The Boston Globe</cite>. Ethan’s acclaimed books, <cite>Responsive Web Design</cite> and <cite>Responsive Design: Patterns and Principles</cite>, show how designers and organizations can leverage the web’s flexibility to design across mobile, tablet, and desktop—and whatever might come next.</p>
 </section>
 
 <section class="event-bio">
-  <img alt="Karen McGrane" src="{{site.baseurl}}/img/bio-karen-mcgrane.jpg">
+  <img alt="Karen McGrane" src="img/bio-karen-mcgrane.jpg">
   <h2>Karen McGrane</h2>
   <p>If the internet is more awesome than it was in 1995, Karen would like to claim a very tiny piece of the credit. For the past 20 years Karen has helped businesses create better digital products through the power of user experience design and content strategy. She is Managing Partner at Bond Art + Science, a UX consultancy she founded in 2006, and formerly VP and National Lead for User Experience at Razorfish. Karen teaches Design Management in the MFA in Interaction Design program at the School of Visual Arts in Manhattan. She co-hosts <cite>A Responsive Web Design Podcast</cite> with Ethan Marcotte, and is the author of <cite>Going Responsive</cite>, published in 2015 by A Book Apart. Her first book, <cite>Content Strategy for Mobile</cite>, was published in 2012.</p>
 </section>
@@ -113,7 +84,7 @@
 </header>
 
 <section class="event-bio">
-  <img alt="Jeremy Osborn" src="{{site.baseurl}}/img/bio-jeremy-osborn.jpg">
+  <img alt="Jeremy Osborn" src="img/bio-jeremy-osborn.jpg">
   <h2>Jeremy Osborn</h2>
   <p>Jeremy is Academic Director of Aquent Gymnasium. Jeremy is the author of several well-reviewed and popular books on web technology and design software. He was recently featured on Jeffrey Zeldman’s podcast, <cite>The Big Web Show</cite>.</p>
 </section>
@@ -130,7 +101,7 @@
   </div>
 </footer>
 
-<script src="{{ site.baseurl }}/js/functions.js" async></script>
-{% include analytics.html %}
+<script src="js/functions.js" async></script>
+
 </body>
 </html>

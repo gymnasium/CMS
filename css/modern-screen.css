@@ -209,6 +209,27 @@ main p.small-print {
 
 /* form / registration */
 
+.registration-closed {
+  background: #ebebeb;
+  padding: 1.6em 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-bottom: 2em;
+  }
+
+.registration-closed h2 {
+  font-family: brandon-grotesque, "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 2.2em;
+  line-height: 1.1;
+  letter-spacing: .01em;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+.registration-closed p {
+  margin-bottom: 0;
+  }
+
 .event-form {
   color: #222;
   margin: 2em 0;
@@ -278,6 +299,10 @@ main p.small-print {
   line-height: 1.2;
   }
 
+.event-form button {
+  margin-top: 2em;
+  }
+
 .gym-button {
   display: block;
   width: 100%;
@@ -339,14 +364,14 @@ main aside header {
 }
 
 main aside h1 {
-  font: 900 1.6em/1 brandon-grotesque, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: 900 1.6em/1.1 brandon-grotesque, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
   }
 
 main aside h2 {
-  font: bold 1.2em/1 brandon-grotesque, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: bold 1.2em/1.2 brandon-grotesque, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
