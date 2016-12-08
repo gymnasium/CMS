@@ -1,6 +1,6 @@
 ---
 title: "Live Event Registration | Gymnasium"
-layout: gym-event-temp
+layout: gym-event-temp-closed
 permalink: /events/state_of_responsive_design/
 collection: events
 date: 2016-10-31
