@@ -8,6 +8,11 @@ body {
   margin: 0;
   }
 
+html,
+body {
+  height: 100%;
+  }
+
 /* HTML5 elements / redefine display */
 
 article,
@@ -332,6 +337,16 @@ main p.small-print {
   }
 
 }
+
+/* thanks */
+
+.thanks {
+  min-height: 85%;
+  }
+
+.thanks .registration-closed {
+  margin: 5%;
+  }
 
 /* sidebar */
 
