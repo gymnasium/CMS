@@ -39,7 +39,7 @@
 @font-face {
 	font-family: brandon-grotesque;
 	src: url("/cms/fonts/brandon_blk-webfont.woff") format("woff"),
-	url("cms/fonts/brandon_blk-webfont.woff2") format("woff2");
+	url("/cms/fonts/brandon_blk-webfont.woff2") format("woff2");
 	font-style: normal;
 	font-weight: 900;
 	}
@@ -47,7 +47,7 @@
 @font-face {
 	font-family: brandon-grotesque;
 	src: url("/cms/fonts/brandon_blk_it-webfont.woff") format("woff"),
-	url("cms/fonts/brandon_blk_it-webfont.woff2") format("woff2");
+	url("/cms/fonts/brandon_blk_it-webfont.woff2") format("woff2");
 	font-style: italic;
 	font-weight: 900;
 	}
