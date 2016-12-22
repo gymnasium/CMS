@@ -15,7 +15,7 @@ webinar_ID: 1922962652293998851
 video_ID: mqph05uxqn
 ---
 <p class="hero-text">
-'Responsive web design' was a theoretical concept coupled with a bit of practical code in 2010 when Ethan Marcotte first coined the term in his article for A List Apart. In five years, the responsive design approach has grown into a universally-accepted standard for designing interactive experiences on the web. Along the way, process, tools, and technology have changed rapidly, making the approach to successful web design a constantly moving target and leaving web teams with questions about how to adapt.
+'Responsive web design' was a theoretical concept coupled with a bit of practical code in 2010 when Ethan Marcotte first coined the term in his article for <cite>A List Apart</cite>. In five years, the responsive design approach has grown into a universally-accepted standard for designing interactive experiences on the web. Along the way, process, tools, and technology have changed rapidly, making the approach to successful web design a constantly moving target and leaving web teams with questions about how to adapt.
 </p>
 
 Karen McGrane, a UX consultant, has been immersed in information architecture and content strategy for more than fifteen years. When they joined forces in 2010, Ethan and Karen began educating web designers worldwide with an email newsletter, in-house workshops and a podcast documenting interviews with over 100 organizations large and small via their about how they implemented the responsive framework.
