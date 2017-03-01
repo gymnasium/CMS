@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  {% if page.video == true %}
+  <!-- There is a video recording -->
+  <title>Live Event Recording | Gymnasium</title>
+    {% capture meta_description %}{{ page.short_description }} Hosted by Aquent Gymnasium in {{ page.event_date | date: '%B, %Y.' }}{% endcapture %}
+    {% assign og_image = page.recording_ogimage %}
+  {% else %}
+  <!-- Registration is open -->
+  <title>Live Event Registration | Gymnasium</title>
+    {% capture meta_description %}{{ page.short_description }} Hosted by Aquent Gymnasium on {{ page.event_date | date: '%A, %B %-d, %Y' }} at {{ page.event_time }}.{% endcapture %}
+    {% assign og_image = page.event_ogimage %}
+  {% endif %}
+
+  <link rel="stylesheet" href="{{site.baseurl}}/css/fonts.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/modern-screen.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ meta_description }}">
+  <meta name="author" content="Aquent Gymnasium">
+  <meta property="og:image" content="{{site.baseurl}}/img/{{og_image}}">
+ <meta property="og:description" content="{{ meta_description }}">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.slim.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.1/jquery.validate.min.js"></script>
+    {% include favicon.html %}
+</head>

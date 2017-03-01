@@ -1,14 +1,35 @@
 ---
-title: "Live Event Registration | Gymnasium"
-layout: gym-default
+event_title: "Keeping Up with JavaScript is a <span class=\"nowrap\">Full-time Job</span>"
+event_guests: "with Kevin Chisholm and <span class=\"nowrap\">Keith Peters</span>"
+page_title: "Live Event Registration | Gymnasium"
+short_description: "A conversation about the ever-changing JavaScript landscape with special guests Kevin Chisholm and Keith Peters."
+layout: gym-event-default
 permalink: /events/keeping_up_with_javascript/
 collection: events
-date: 2017-03-22
-landing: true
+date: 2017-02-26
+event_date: 2017-03-22
+event_time: "2PM ET"
+event_ogimage: keeping-up-with-js-event.png
+recording_ogimage: keeping-up-with-js-recording.png
+host: josborn
+speaker:
+    - kchisholm
+    - kpeters
+content_category: dev
 register: true
+recording: false
 video: false
-webinar_ID:
+webinar_ID: 6479666494654139906
+webinar_question_key: 45546418
 video_ID:
----
 
-Placeholder for the JavaScript Event
+
+
+---
+<p>
+We are pleased to welcome, JavaScript developers and Gymnasium instructors, Kevin Chisholm and Keith Peters to discuss the challenges of keeping up with today’s ever-changing JavaScript landscape, when learning becomes a full-time job, and how to manage learning while having a full-time job.
+</p>
+
+<p class="call-out">
+JavaScript first appeared over twenty years ago, and since then it has become one of the most important languages on and off the web. Today’s JavaScript ecosystem, driven by sophisticated technologies, frameworks, and libraries, brings a new level of interaction and innovation to the web that exceeds the humble beginnings of the early days of JavaScript. Both Kevin and Keith provide an in-the-trenches perspective to navigating the JavaScript landscape.
+</p>

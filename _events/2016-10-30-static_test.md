@@ -1,14 +1,14 @@
 ---
-title: "Just a Static Test for Justin"
+event_title: "Just a Static Test for Justin"
 layout: event
 permalink: /events/just_a_static_test/
 collection: events
 date: 2016-10-30
-event-date: 2016-12-08
+event_date: 2016-12-01
 event-time: "2-3 PM"
 landing: true
 guests: "with Ethan Marcotte and Karen McGrane"
-short-description: "A conversation about the past, present, and future state of responsive web design with special guests Ethan Marotte and Karen McGrane."
+short_description: "This is a test of the emergency broadcast program. Had this been a real emergency, it would have been louder."
 register: true
 video: false
 webinar_ID: 1922962652293998851

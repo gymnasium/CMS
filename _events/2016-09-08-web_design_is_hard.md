@@ -1,9 +1,11 @@
 ---
-title: "Web Design is Hard"
+event_title: "Web Design is Hard"
 layout: event
 permalink: /events/web_design_is_hard/
 collection: events
 date: 2016-09-08
+event_date: 2016-10-31
+short_description: "Lorem ipsum and dipsum dorem lorem. Florem or pourem he said."
 landing: true
 register: false
 video: true
