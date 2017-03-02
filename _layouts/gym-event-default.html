@@ -31,7 +31,7 @@
   <h2>{{ page.event_guests }}</h2>
 
   {% if page.video %}
-  <h3 class="datetime">{{ page.event_date | date: "<del hidden>%A, </del>%B %-d, %Y<del hidden>, " }}{{ page.event_time }}</del></h3>
+  <h3 class="datetime">{{ page.event_date | date: "%B %-d, %Y"}}</h3>
     {% else %}
     <h3 class="datetime">{{ page.event_date | date: "%A, %B %-d, %Y at " }}{{ page.event_time }}</h3>
     {% endif %}
