@@ -8,7 +8,7 @@ permalink: /events/keeping_up_with_javascript/
 collection: events
 date: 2017-02-26
 event_date: 2017-03-22
-event_time: "2PM ET"
+event_time: "2PM EDT"
 event_ogimage: keeping-up-with-js-event.png
 recording_ogimage: keeping-up-with-js-recording.png
 host: josborn
