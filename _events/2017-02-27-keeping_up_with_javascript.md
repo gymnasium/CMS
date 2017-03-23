@@ -16,8 +16,8 @@ speaker:
     - kchisholm
     - kpeters
 content_category: dev
-register: true
-recording: false
+register: false
+recording: true
 video: false
 webinar_ID: 6479666494654139906
 webinar_question_key: 45546418
