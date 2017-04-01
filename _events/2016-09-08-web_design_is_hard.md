@@ -6,7 +6,7 @@ collection: events
 date: 2016-09-08
 event_date: 2016-10-31
 short_description: "Lorem ipsum and dipsum dorem lorem. Florem or pourem he said."
-landing: true
+landing: false
 register: false
 video: true
 webinar_ID: abc1101010101
