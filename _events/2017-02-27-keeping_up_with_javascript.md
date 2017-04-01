@@ -16,6 +16,7 @@ speaker:
     - kchisholm
     - kpeters
 content_category: dev
+landing: true
 register: false
 recording: true
 video: false

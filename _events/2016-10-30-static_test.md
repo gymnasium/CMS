@@ -9,6 +9,7 @@ event-time: "2-3 PM"
 landing: true
 guests: "with Ethan Marcotte and Karen McGrane"
 short_description: "This is a test of the emergency broadcast program. Had this been a real emergency, it would have been louder."
+landing: false
 register: true
 video: false
 webinar_ID: 1922962652293998851
