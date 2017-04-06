@@ -18,11 +18,11 @@ speaker:
 content_category: dev
 landing: true
 register: false
-recording: true
-video: false
+recording: false
+video: true
 webinar_ID: 6479666494654139906
 webinar_question_key: 45546418
-video_ID:
+video_ID: j3s0c25h59
 
 
 
