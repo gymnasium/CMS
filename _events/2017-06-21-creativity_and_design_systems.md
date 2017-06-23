@@ -9,8 +9,8 @@ collection: events
 date: 2017-06-21
 event_date: 2017-07-19
 event_time: "2PM EDT"
-event_ogimage: keeping-up-with-js-event.png
-recording_ogimage: keeping-up-with-js-recording.png
+event_ogimage: design-systems-and-creativity-registration-og.png
+recording_ogimage: design-systems-and-creativity-recording-og.png
 host: josborn
 speaker:
     - bfrost
