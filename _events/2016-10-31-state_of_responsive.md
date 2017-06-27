@@ -1,15 +1,29 @@
 ---
 event_title: "The State of Responsive Design"
-title: "Live Event Recording | Gymnasium"
-layout: gym-event-temp-recording
+event_guests: "with Ethan Marcotte and <span class=\"nowrap\">Karen McGrane</span>"
+page_title: "Live Event Recording | Gymnasium"
+layout: gym-event-default
 permalink: /events/state_of_responsive_design/
 collection: events
 date: 2016-10-31
 event_date: 2016-12-08
+event_time: "2PM EDT"
 short_description: "A conversation about the past, present, and future state of responsive web design with special guests Ethan Marcotte and Karen McGrane."
+event_ogimage: state-of-rwd-live-event.png
+recording_ogimage: state-rwd-recording-og.png
+host: josborn
+speaker:
+    - emarcotte
+    - kmcgrane
+content_category: design
 landing: true
 register: false
 video: true
 webinar_ID: 1922962652293998851
-video_ID: mzhd1ut9he
+webinar_question_key: 000
+video_ID: daytlVhIkX8
 ---
+
+<p class="call-out">'Responsive web design' was a theoretical concept coupled with a bit of practical code in 2010 when Ethan Marcotte first coined the term in his article for <cite>A List Apart</cite>. In five years, the responsive design approach has grown into a universally-accepted standard for designing interactive experiences on the web. Along the way, process, tools, and technology have changed rapidly, making the approach to successful web design a constantly moving target and leaving web teams with questions about how to adapt.</p>
+
+<p>When Karen and Ethan joined forces in 2014, they began educating web designers worldwide with an email newsletter, in-house workshops, and a podcast documenting interviews with over 100 organizations large and small.</p>

@@ -1,6 +1,6 @@
 {% if page.video_ID %}
 <div class="event-video">
-  <script src="https://fast.wistia.com/embed/medias/{{ page.video_ID }}.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_embed wistia_async_{{ page.video_ID }}" style="width: 100%;">&nbsp;</div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.video_ID }}" frameborder="0" allowfullscreen></iframe>
 </div>
 {% else %}
 <h2>No video ID provided</h2>
