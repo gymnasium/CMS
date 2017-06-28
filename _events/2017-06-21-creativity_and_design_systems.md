@@ -7,7 +7,7 @@ layout: gym-event-default
 permalink: /events/design_systems_and_creativity/
 collection: events
 date: 2017-06-21
-event_date: 2017-07-19
+event_date: 2017-07-17
 event_time: "2PM EDT"
 event_ogimage: design-systems-and-creativity-registration-og.png
 recording_ogimage: design-systems-and-creativity-recording-og.png
