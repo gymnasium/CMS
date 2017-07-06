@@ -28,7 +28,7 @@ video_ID:
 
 ---
 <p>
-We’re excited to have Brad Frost of Atomic Design and Sophie Shepherd of GitHub join our Academic Director Jeremy as he leads a conversation about creativity, design systems, and their paradoxical relationship.
+We’re excited to have Brad Frost of <cite>Atomic Design</cite> and Sophie Shepherd of GitHub join our Academic Director Jeremy as he leads a conversation about creativity, design systems, and their paradoxical relationship.
 </p>
 <p>
 Prepare to cover a lot of ground—from usability and efficiency to flexibility and innovation.
@@ -36,6 +36,6 @@ Prepare to cover a lot of ground—from usability and efficiency to flexibility 
 <p>
 This webinar is for anyone wondering what design systems are, how to use them, and if they can really boost creativity. (Hint: yep!)
 </p>
-<p>
+<p class="call-out">
 Enjoy the show.
 </p>
