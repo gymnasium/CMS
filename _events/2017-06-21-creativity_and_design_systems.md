@@ -17,11 +17,11 @@ speaker:
     - sshepherd
 content_category: design
 landing: true
-register: false
+register: true
 recording: false
 video: false
-webinar_ID: 000
-webinar_question_key: 000
+webinar_ID: 713384955
+webinar_question_key: 749164726051795715
 video_ID:
 
 
