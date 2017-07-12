@@ -14,9 +14,12 @@ speaker:
     - jzeldman
     - agustafson
 content_category: design
+event_ogimage: web-design-is-hard-registration-og.png
+recording_ogimage: web-design-is-hard-recording-og.pngg
 landing: true
 register: false
 video: true
 webinar_ID: abc1101010101
 video_ID: mqph05uxqn
 ---
+web-design-is-hard-recording-og.png
