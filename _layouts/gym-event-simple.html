@@ -1,0 +1,85 @@
+{% include event-header.html %}
+
+<body>
+
+<header id="brand">
+  <div class="structure">
+
+  <div class="logo">
+    <a href="https://thegymnasium.com" title="Home"><img alt="Aquent Gymnasium (The Gymnasium)" srcset="{{site.baseurl}}/img/gymnasium-logo-ko.svg" src="img/gymnasium-logo-ko.png" role="heading"></a>
+  </div>
+
+  </div>
+</header>
+
+<main class="content structure">
+
+<article>
+
+
+<header class="main-header event-header">
+    <h1>Live Event</h1>
+    {% if page.video %}
+    <h2>Recording</h2>
+    {% else %}
+    <h2>Registration</h2>
+    {% endif %}
+</header>
+
+<header class="event-banner-hero event-theme-{{ page.content_category }}">
+  <h1>{{ page.event_title }}</h1>
+  <h2>{{ page.event_guests }}</h2>
+
+  {% if page.video %}
+  <h3 class="datetime">{{ page.event_date | date: "%B %-d, %Y"}}</h3>
+    {% else %}
+    <h3 class="datetime">{{ page.event_date | date: "%A, %B %-d, %Y at " }}{{ page.event_time }}</h3>
+    {% endif %}
+</header>
+
+<!-- <p class="call-out">{{ page.short_description }}</p> -->
+
+{% if page.register %}
+{% include event-reg-form.html %}
+
+    {% else  %}
+        {% if page.recording %}
+        {% include event-recording-form.html %}
+        {% endif %}
+
+        {% if page.video and page.video_ID %}
+        <p><strong>This live event recording is now available.</strong>
+        {% include event-video.html %}
+        {% endif %}
+{% endif %}
+
+{{ content }}
+</article>
+
+<!-- sidebar -->
+
+<aside>
+
+
+<header>
+  <h1>Our Presenters</h1>
+</header>
+    {% for speaker in page.speaker %}
+     {% include /bios/{{speaker}}.html %}
+    {% endfor %}
+
+    <header>
+      <h1>Our Host</h1>
+    </header>
+{% for host in page.host %}
+{% include /bios/{{host}}.html %}
+{% endfor %}
+</aside>
+
+
+<aside>
+
+
+</main>
+
+{% include event-footer.html %}
