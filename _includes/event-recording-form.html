@@ -29,7 +29,7 @@
     // flag this function so we don’t do the same thing twice
     arguments.callee.done = true;
   document.getElementById("google-response").onload = function() {
-    window.self.location.href = "{{site.baseurl}}/thanks.html";
+    window.self.location.href = "{{site.url}}{{site.baseurl}}/thanks.html";
   }
   };
   </script>
