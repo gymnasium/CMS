@@ -18,7 +18,7 @@ speaker:
 content_category: design
 landing: true
 register: false
-recording: false
+recording: true
 video: false
 webinar_ID: 749164726051795715
 webinar_question_key: 52817140
