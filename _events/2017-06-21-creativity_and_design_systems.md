@@ -17,7 +17,7 @@ speaker:
     - sshepherd
 content_category: design
 landing: true
-register: true
+register: false
 recording: false
 video: false
 webinar_ID: 749164726051795715
