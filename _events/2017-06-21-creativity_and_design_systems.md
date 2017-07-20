@@ -18,11 +18,11 @@ speaker:
 content_category: design
 landing: true
 register: false
-recording: true
-video: false
+recording: false
+video: true
 webinar_ID: 749164726051795715
 webinar_question_key: 52817140
-video_ID:
+video_ID: L4PH4nHmZ_g
 
 
 
