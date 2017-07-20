@@ -15,11 +15,10 @@ speaker:
     - agustafson
 content_category: design
 event_ogimage: web-design-is-hard-registration-og.png
-recording_ogimage: web-design-is-hard-recording-og.pngg
+recording_ogimage: web-design-is-hard-recording-og.png
 landing: true
 register: false
 video: true
-webinar_ID: abc1101010101
-video_ID: mqph05uxqn
+webinar_ID:
+video_ID: HiuLq8FAk0Q
 ---
-web-design-is-hard-recording-og.png
