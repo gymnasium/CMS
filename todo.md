@@ -25,10 +25,10 @@ https://drive.google.com/drive/folders/0B_AalQ4nIDxyTWgwc294RVdQY2M
 
 **Event Date:** 9/21/2016
 
-- [ ]bios
-- [ ]photos
+- [x]bios
+- [x]photos
 - [ ]description?
-- [ ]OGs
+- [x]OGs
 
 ---
 
