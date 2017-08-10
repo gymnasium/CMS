@@ -465,3 +465,7 @@ main aside h2 {
   color: #ccc;
   padding: 1.2em 2.2em;
   }
+
+.event-thumb {
+    max-width: 200px;
+}
