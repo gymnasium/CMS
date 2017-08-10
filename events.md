@@ -1,8 +1,10 @@
 ---
 layout: gym-default
 title: "Events"
+meta_description: "Aquent Gymnasium Live Events and Recordings"
 permalink: /events/
 baseurl:
+
 ---
 
 
