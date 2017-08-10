@@ -1,6 +1,8 @@
 ---
 title: "CMS Index"
 layout: gym-default
+meta_description: "Aquent Gymnasium - GitHub-based CMS"
+og_image: default_ogimage.png
 permalink: /
 baseurl: /
 ---
