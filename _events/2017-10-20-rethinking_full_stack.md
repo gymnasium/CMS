@@ -9,8 +9,8 @@ collection: events
 date: 2017-10-20
 event_date: 2017-11-09
 event_time: "2PM EDT"
-event_ogimage: default_ogimage.png
-recording_ogimage: default_ogimage.png
+event_ogimage: rethinking-full-stack-registration-og.png
+recording_ogimage: rethinking-full-stack-recording-og.png
 host: josborn
 speaker:
     - emeyer
@@ -21,7 +21,7 @@ register: false
 recording: false
 video: false
 webinar_ID: 6444542601256320259
-webinar_question_key: 503178123
+webinar_question_key:
 video_ID:
 
 
