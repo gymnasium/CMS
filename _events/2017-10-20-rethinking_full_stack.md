@@ -16,12 +16,12 @@ speaker:
     - emeyer
     - dmall
 content_category: dev
-landing: false
-register: false
+landing: true
+register: true
 recording: false
 video: false
 webinar_ID: 6444542601256320259
-webinar_question_key:
+webinar_question_key: 67394381
 video_ID:
 
 
