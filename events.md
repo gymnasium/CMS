@@ -7,9 +7,11 @@ permalink: /events/
 baseurl:
 
 ---
-
-
-{% assign sorted = (site.events | sort: 'date') | reverse %}
+{% comment %}
+Reverse sorting on the date of a collection is based on
+this gist: https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e
+{% endcomment %}
+{% assign sorted = site.events | reverse %}
 {% for item in sorted %}
 {% if item.landing %}
 
