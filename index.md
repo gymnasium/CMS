@@ -22,10 +22,11 @@ baseurl: /
 - (This should eventually live at - `http://thegymnasium/pr/`)
 
 {% endcomment %}
+
+
 ---
 
 - Debug Details
   - **`site.url`:** `{{ site.url }}`
   - **`site.baseurl`:** `{{ site.baseurl }}`
   - **`site.collections`:** `{{ site.collections }}`
-  - **`site.data`:** `{{ site.data }}`
