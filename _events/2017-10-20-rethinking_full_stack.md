@@ -2,7 +2,7 @@
 event_title: "Rethinking <span class=\"nowrap\">Full Stack: </span><br/>Cost and <span class=\"nowrap\">Compromise</span>"
 event_guests: "with Eric Meyer and <span class=\"nowrap\">Dan Mall</span>"
 page_title: "Live Event Registration | Gymnasium"
-short_description: "A conversation about something and something else with special guests Eric Meyer and Dan Mall."
+short_description: "A conversation about the difference between front end and full stack developers with special guests Eric Meyer and Dan Mall."
 layout: gym-event-default
 permalink: /events/rethinking_full_stack/
 collection: events
@@ -28,7 +28,10 @@ video_ID:
 
 ---
 <p>
-We’re excited to have Eric Meyer and Dan Mall talking about something and something else.
+Hiring a one-size-fits-all developer can be a benefit, as well as a hidden cost and compromise to your company and clients.
+</p>
+<p>
+Sign up to watch Eric Meyer, web pioneer and author, and Dan Mall, founder and director of design collaborative SuperFriendly, discuss why one size doesn’t always fit all.
 </p>
 <p class="call-out">
 Enjoy the show.
