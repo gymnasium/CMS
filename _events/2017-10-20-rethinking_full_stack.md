@@ -8,7 +8,7 @@ permalink: /events/rethinking_full_stack/
 collection: events
 date: 2017-10-20
 event_date: 2017-11-09
-event_time: "2PM EDT"
+event_time: "2PM EST"
 event_ogimage: rethinking-full-stack-registration-og.png
 recording_ogimage: rethinking-full-stack-recording-og.png
 host: josborn
