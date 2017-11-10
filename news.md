@@ -13,7 +13,7 @@ This is the featured _something_ but I don't know where/how it'll work
 ### Events
 
 <dl>
-    {% assign sorted = (site.events | sort: 'date') | reverse %}
+    {% assign sorted = site.events | reverse %}
     {% for item in sorted %}
     <dt><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></dt>
     <dd>{{ item.date  | date: '%B %d, %Y' }}</dd>
