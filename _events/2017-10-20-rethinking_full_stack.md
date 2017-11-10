@@ -17,8 +17,8 @@ speaker:
     - dmall
 content_category: dev
 landing: true
-register: true
-recording: false
+register: false
+recording: true
 video: false
 webinar_ID: 6444542601256320259
 webinar_question_key: 67394381
