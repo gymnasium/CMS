@@ -6,7 +6,7 @@ baseurl:
 ---
 
 <div markdown = "0"> <!-- This is a hack to force the html to render -->
-{% assign sorted = (site.events | sort: 'date') | reverse %}
+{% assign sorted = site.events | reverse %}
 {% for item in sorted %}
   {% if item.video %}
 
@@ -15,7 +15,7 @@ baseurl:
     <!-- <p>{{ item.short_description}}</p> -->
 
     <div class="event-video">
-      <script src="https://fast.wistia.com/embed/medias/{{ item.video_ID }}.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_embed wistia_async_{{ item.video_ID }}" style="width: 100%;">&nbsp;</div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ item.video_ID }}" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <hr>
