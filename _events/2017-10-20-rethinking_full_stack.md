@@ -18,11 +18,11 @@ speaker:
 content_category: dev
 landing: true
 register: false
-recording: true
-video: false
+recording: false
+video: true
 webinar_ID: 6444542601256320259
 webinar_question_key: 67394381
-video_ID:
+video_ID: EXc_8i0PpLI
 
 
 
@@ -31,7 +31,7 @@ video_ID:
 Hiring a one-size-fits-all developer can be a benefit, as well as a hidden cost and compromise to your company and clients.
 </p>
 <p>
-Sign up to watch Eric Meyer, web pioneer and author, and Dan Mall, founder and director of design collaborative SuperFriendly, discuss why one size doesn’t always fit all.
+Watch Eric Meyer, web pioneer and author, and Dan Mall, founder and director of design collaborative SuperFriendly, discuss why one size doesn’t always fit all.
 </p>
 <p class="call-out">
 Enjoy the show.
