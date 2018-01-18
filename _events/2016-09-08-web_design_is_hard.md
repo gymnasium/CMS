@@ -8,7 +8,7 @@ collection: events
 date: 2016-09-08
 event_date: 2016-09-21
 event_time: "2PM EDT"
-short_description: "A conversation about navigating the complex world of web design education."
+short_description: "A conversation about navigating the complex world of web design education with our friends Jeffrey Zeldman and Aaron Gustafson."
 host: josborn
 speaker:
     - jzeldman

@@ -17,21 +17,6 @@ https://drive.google.com/drive/folders/0B8-54l4izyWwS0dHNV9tWkRndTA
 
 ---
 
-### Web Design is Hard: The State of Learning To Design and Code
-
-https://drive.google.com/drive/folders/0B_AalQ4nIDxyTWgwc294RVdQY2M
-
-**Video:** `HiuLq8FAk0Q`
-
-**Event Date:** 9/21/2016
-
-- [x]bios
-- [x]photos
-- [ ]description?
-- [x]OGs
-
----
-
 ### Designing for Real People
 
 https://drive.google.com/drive/folders/0B8-54l4izyWwWl9ld2hQZGFtTTg
