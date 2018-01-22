@@ -5,7 +5,7 @@ permalink:
 title: Gymnasium CMS
 #url: "http://gymnasium.github.io/cms/"
 baseurl: /cms  # This makes the index page URL localhost:4000/cms/ Remember: Omit the trailing slash!
-exclude: ['docker-compose.yml']
+exclude: ['docker-compose.yml','Gemfile','Gemfile.lock']
 
 collections:
     events:
