@@ -16,7 +16,7 @@ this gist: https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e
 {% if item.landing %}
 
 <small>{{ item.event_date  | date: '%B %d, %Y' }}</small>
-{% if item.register == true %}
+{% if item.landing == true %}
 <img src="{{site.baseurl}}/img/{{ item.event_ogimage }}" class="event-thumb" />
 {% else %}
 <img src="{{site.baseurl}}/img/{{ item.recording_ogimage }}" class="event-thumb" />
