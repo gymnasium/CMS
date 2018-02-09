@@ -15,7 +15,7 @@
   speaker:
     - randrew
     - jpamental
-  content_category: dev
+  content_category: design
   landing: true
   register: true
   recording: false
