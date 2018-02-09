@@ -7,7 +7,7 @@
   permalink: /events/future_web_layout/
   collection: events
   date: 2018-02-05
-  event_date: 2018-03-18
+  event_date: 2018-03-13
   event_time: "10AM EST" # Edit this
   event_ogimage: future-of-web-layout-registration-og.png
   recording_ogimage: future-of-web-layout-recording-og.png
