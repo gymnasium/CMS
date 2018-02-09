@@ -16,12 +16,12 @@
     - randrew
     - jpamental
   content_category: dev
-  landing: false
-  register: false
+  landing: true
+  register: true
   recording: false
   video: false
   webinar_ID: 6418447894000198914
-  webinar_question_key:
+  webinar_question_key: 85618975
   video_ID:
 ---
 <p>
