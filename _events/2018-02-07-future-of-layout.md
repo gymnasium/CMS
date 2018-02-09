@@ -8,9 +8,9 @@
   collection: events
   date: 2018-02-05
   event_date: 2018-03-18
-  event_time: "00PM" # Edit this
-  event_ogimage: default_ogimage.png # Edit this
-  recording_ogimage: default_ogimage.png # Edit this
+  event_time: "10AM EST" # Edit this
+  event_ogimage: future-of-web-layout-registration-og.png
+  recording_ogimage: future-of-web-layout-recording-og.png
   host: josborn
   speaker:
     - randrew
