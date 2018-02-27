@@ -8,7 +8,7 @@
   collection: events
   date: 2018-02-05
   event_date: 2018-03-13
-  event_time: "10AM EST" # Edit this
+  event_time: "10AM EDT"
   event_ogimage: future-of-web-layout-registration-og.png
   recording_ogimage: future-of-web-layout-recording-og.png
   host: josborn
