@@ -25,7 +25,7 @@
   video_ID:
 ---
 <p>
-Learn why technologies such as Flexbox and SVG artwork should be part of your workflow today, and why technologies such as CSS Grid Layout and Variable Web Fonts will be a part of your workflow tomorrow.
+Learn why layout technologies such as Flexbox and Grid Layout should be a part of your workflow today, and which web technologies might be a part of your workflow tomorrow.
 </p>
 <p>
 <strong>Rachel Andrew</strong>, web developer, speaker, and writer, and <strong>Jason Pamental</strong>, senior director of design and technical strategy at Isovera, will join <strong>Jeremy Osborn</strong>, academic director of Gymnasium, to help deconstruct the upcoming shift in designing for the web.
