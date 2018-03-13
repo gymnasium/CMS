@@ -17,7 +17,7 @@
     - jpamental
   content_category: design
   landing: true
-  register: true
+  register: false
   recording: false
   video: false
   webinar_ID: 6418447894000198914
