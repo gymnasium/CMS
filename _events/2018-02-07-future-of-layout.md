@@ -18,11 +18,11 @@
   content_category: design
   landing: true
   register: false
-  recording: true
-  video: false
+  recording: false
+  video: true
   webinar_ID: 6418447894000198914
   webinar_question_key: 85618975
-  video_ID:
+  video_ID: LUMkgn_xtlg
 ---
 <p>
 Learn why layout technologies such as Flexbox and Grid Layout should be a part of your workflow today, and which web technologies might be a part of your workflow tomorrow.
