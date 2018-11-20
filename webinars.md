@@ -1,9 +1,9 @@
 ---
 layout: gym-default
-title: "Events"
+title: "Webinars"
 meta_description: "Aquent Gymnasium Live Events and Recordings"
 og_image: default_ogimage.png
-permalink: /events/
+permalink: /webinars/
 baseurl:
 
 ---
@@ -11,7 +11,7 @@ baseurl:
 Reverse sorting on the date of a collection is based on
 this gist: https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e
 {% endcomment %}
-{% assign sorted = site.events | reverse %}
+{% assign sorted = site.webinars | reverse %}
 {% for item in sorted %}
 {% if item.landing %}
 

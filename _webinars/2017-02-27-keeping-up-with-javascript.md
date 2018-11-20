@@ -1,11 +1,11 @@
 ---
 event_title: "Keeping Up with JavaScript is a <span class=\"nowrap\">Full-time Job</span>"
 event_guests: "with Kevin Chisholm and <span class=\"nowrap\">Keith Peters</span>"
-page_title: "Live Event Registration | Gymnasium"
+page_title: "Gymnasium Webinar"
 short_description: "A conversation about the ever-changing JavaScript landscape with special guests Kevin Chisholm and Keith Peters."
 layout: gym-event-default
-permalink: /events/keeping_up_with_javascript/
-collection: events
+permalink: /webinars/keeping-up-with-javascript/
+collection: webinars
 date: 2017-02-26
 event_date: 2017-03-22
 event_time: "2PM EDT"

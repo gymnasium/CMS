@@ -1,8 +1,8 @@
 ---
 event_title: "Just a Static Test for Justin"
 layout: event
-permalink: /events/just_a_static_test/
-collection: events
+permalink: /webinars/just-a-tatic-test/
+collection: webinars
 date: 2016-10-30
 event_date: 2016-12-01
 event-time: "2-3 PM"

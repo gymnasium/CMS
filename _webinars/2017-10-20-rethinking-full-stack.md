@@ -1,11 +1,11 @@
 ---
 event_title: "Rethinking <span class=\"nowrap\">Full Stack: </span><br/>Cost and <span class=\"nowrap\">Compromise</span>"
 event_guests: "with Eric Meyer <span class=\"nowrap\">and Dan Mall</span>"
-page_title: "Live Event Registration | Gymnasium"
+page_title: "Gymnasium Webinar"
 short_description: "A conversation about the difference between front end and full stack developers with special guests Eric Meyer and Dan Mall."
 layout: gym-event-default
-permalink: /events/rethinking_full_stack/
-collection: events
+permalink: /webinars/rethinking-full-stack/
+collection: webinars
 date: 2017-10-20
 event_date: 2017-11-09
 event_time: "2PM EST"

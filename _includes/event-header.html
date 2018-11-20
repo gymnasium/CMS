@@ -6,12 +6,12 @@
   <!-- There is a video recording -->
     {% capture meta_description %}{{ page.short_description }} Hosted by Aquent Gymnasium in {{ page.event_date | date: '%B, %Y.' }}{% endcapture %}
     {% assign og_image = page.recording_ogimage %}
-    {% assign og_title = "Live Event Recording" %}
+    {% assign og_title = "Webinar Recording" %}
   {% else %}
   <!-- Registration is open -->
     {% capture meta_description %}{{ page.short_description }} Hosted by Aquent Gymnasium on {{ page.event_date | date: '%A, %B %-d, %Y' }} at {{ page.event_time }}.{% endcapture %}
     {% assign og_image = page.event_ogimage %}
-    {% assign og_title = "Live Event Registration" %}
+    {% assign og_title = "Webinar Registration" %}
   {% endif %}
 
   <title>{{ og_title }} | Gymnasium</title>

@@ -1,11 +1,11 @@
 ---
   event_title: "The Future of <span class=\"nowrap\">Web Layout</span>"
   event_guests: "with Rachel Andrew <span class=\"nowrap\">and Jason Pamental</span>"
-  page_title: "Live Event Registration | Gymnasium"
+  page_title: "Gymnasium Webinar"
   short_description: "A webinar discussing new advances in web layout techniques that will impact web designers and developers in the near future."
   layout: gym-event-default
-  permalink: /events/future_web_layout/
-  collection: events
+  permalink: /webinars/future_web_layout/
+  collection: webinars
   date: 2018-02-05
   event_date: 2018-03-13
   event_time: "10AM EDT"

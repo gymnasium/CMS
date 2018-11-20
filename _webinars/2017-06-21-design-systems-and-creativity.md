@@ -1,11 +1,11 @@
 ---
 event_title: "<span class=\"nowrap\">Design Systems</span> <span class=\"nowrap\">and Creativity:</span> <span class=\"nowrap\">Unlikely Allies</span>"
 event_guests: "with Brad Frost and <span class=\"nowrap\">Sophie Shepherd</span>"
-page_title: "Live Event Registration | Gymnasium"
+page_title: "Gymnasium Webinar"
 short_description: "A conversation about creativity and design systems with special guests Brad Frost and Sophie Shepherd."
 layout: gym-event-default
-permalink: /events/design_systems_and_creativity/
-collection: events
+permalink: /webinars/design-systems-and-creativity/
+collection: webinars
 date: 2017-06-21
 event_date: 2017-07-17
 event_time: "2PM EDT"

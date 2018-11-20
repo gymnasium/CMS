@@ -8,9 +8,9 @@ baseurl: /cms  # This makes the index page URL localhost:4000/cms/ Remember: Omi
 exclude: ['docker-compose.yml','Gemfile','Gemfile.lock']
 
 collections:
-    events:
+    webinars:
         output: true
-        permalink: /cms/events/
+        permalink: /cms/webinars/
 
 
 repository: gymnasium/cms
