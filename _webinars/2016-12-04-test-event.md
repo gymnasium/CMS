@@ -2,7 +2,7 @@
 event_title: "Another Test Event"
 page_title: "Gymnasium Webinar"
 layout: gym-event-temp-recording
-permalink: /webinars/test_event/
+permalink: /webinars/test-event/
 collection: webinars
 date: 2016-12-04
 event_date: 2016-12-24

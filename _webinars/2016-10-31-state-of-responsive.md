@@ -3,7 +3,7 @@ event_title: "The State of Responsive Design"
 event_guests: "with Ethan Marcotte and <span class=\"nowrap\">Karen McGrane</span>"
 page_title: "Gymnasium Webinar"
 layout: gym-event-default
-permalink: /webinars/state_of_responsive_design/
+permalink: /webinars/state-of-responsive-design/
 collection: webinars
 date: 2016-10-31
 event_date: 2016-12-08
