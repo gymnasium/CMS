@@ -8,7 +8,7 @@ permalink: /webinars/planning-before-pixels
 collection: webinars
 date: 2018-11-20
 event_date: 2018-12-11
-event_time: "2:30 EST"
+event_time: "2:30 PM EST"
 event_ogimage: planning-before-pixels-registration-og.png
 recording_ogimage: planning-before-pixels-recording-og.png
 host: josborn
