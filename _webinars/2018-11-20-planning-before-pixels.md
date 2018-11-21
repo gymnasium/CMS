@@ -9,10 +9,10 @@ collection: webinars
 date: 2018-11-20
 event_date: 2018-12-11
 event_time: "2:30 EST"
-event_ogimage: default_ogimage.png
-recording_ogimage: default_ogimage.png
+event_ogimage: planning-before-pixels-registration-og.png
+recording_ogimage: planning-before-pixels-recording-og.png
 host: josborn
-speaker: 
+speaker:
     - jkramer
     - honeill
 content_category: skills
