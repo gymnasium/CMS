@@ -1,4 +1,4 @@
-<form class="event-form" id="event-form" action="https://attendee.gotowebinar.com/registration.tmpl" method="post">
+<form class="event-form" id="event-form" action="https://attendee.gotowebinar.com/registration.tmpl" method="post" autocapitalize="off" autocomplete="nope">
   <fieldset>
     <legend>Join Us</legend>
     <input type="hidden" id="webinar" name="webinar" value="{{ page.webinar_ID}}">
@@ -6,15 +6,15 @@
     <ul>
       <li>
         <label id="registrant.givenNameLabel"><b>First Name</b> (Required)</label>
-        <input required type="text" id="registrant.givenName" name="registrant.givenName" value="" autocomplete="given-name" maxlength="128" tabindex="2">
+        <input required type="text" id="registrant.givenName" name="registrant.givenName" value="" maxlength="128" tabindex="2">
       </li>
       <li>
         <label id="registrant.surnameLabel"><b>Last Name</b> (Required)</label>
-        <input required type="text" id="registrant.surname" name="registrant.surname" value="" autocomplete="family-name" maxlength="128" tabindex="3">
+        <input required type="text" id="registrant.surname" name="registrant.surname" value="" maxlength="128" tabindex="3">
       </li>
       <li>
         <label id="registrant.emailLabel"><b>Email Address</b> (Required)</label>
-        <input required type="email" id="registrant.email" name="registrant.email" value="" autocomplete="email" maxlength="128" tabindex="4">
+        <input required type="email" id="registrant.email" name="registrant.email" value="" maxlength="128" tabindex="4">
       </li>
     </ul>
   </fieldset>
