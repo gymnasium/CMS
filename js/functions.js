@@ -13,9 +13,9 @@ var autofill = [], hash;
     }
 }
 // autofill inputs
-$("#registrant.givenName").attr("value", autofill['first_name']);
-$("#registrant.surname").attr("value", autofill['last_name']);
-$("#registrant.email").attr("value", autofill['email']);
+$(".firstname").attr("value", autofill['first_name']);
+$(".lastname").attr("value", autofill['last_name']);
+$(".email").attr("value", autofill['email']);
 
 /* form validation */
 
