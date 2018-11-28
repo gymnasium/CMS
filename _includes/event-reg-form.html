@@ -6,15 +6,15 @@
     <ul>
       <li>
         <label id="registrant.givenNameLabel" for="registrant.givenName"><b>First Name</b> (Required)</label>
-        <input required type="text" id="registrant.givenName" name="registrant.givenName" class="firstname" value="" maxlength="128" tabindex="2">
+        <input required type="text" id="registrant.givenName" name="registrant.givenName" class="firstname" value="" maxlength="128">
       </li>
       <li>
         <label id="registrant.surnameLabel" for="registrant.surname"><b>Last Name</b> (Required)</label>
-        <input required type="text" id="registrant.surname" name="registrant.surname" class="lastname" value="" maxlength="128" tabindex="3">
+        <input required type="text" id="registrant.surname" name="registrant.surname" class="lastname" value="" maxlength="128">
       </li>
       <li>
         <label id="registrant.emailLabel" for="registrant.email"><b>Email Address</b> (Required)</label>
-        <input required type="email" id="registrant.email" name="registrant.email" class="email" value="" maxlength="128" tabindex="4">
+        <input required type="email" id="registrant.email" name="registrant.email" class="email" value="" maxlength="128">
       </li>
     </ul>
   </fieldset>
@@ -24,7 +24,7 @@
   <input type="hidden" name="customRegistrationSubmission.answers[0].questionKey" value="{{ page.webinar_question_key }}">
 
   <label for="customRegistrationSubmission.answers_0.text"><b>Do you have a question for the presenters?</b> (Optional)</label>
-  <textarea class="optional" id="customRegistrationSubmission.answers_0.text" name="customRegistrationSubmission.answers[0].text" tabindex="5" maxlength="128" placeholder="128 Character Limit."></textarea>
+  <textarea class="optional" id="customRegistrationSubmission.answers_0.text" name="customRegistrationSubmission.answers[0].text" maxlength="128" placeholder="128 Character Limit."></textarea>
 
   <!-- marketing speak -->
   <input type="hidden" name="utm_source" id="utm_source">
@@ -32,6 +32,6 @@
   <input type="hidden" name="utm_content" id="utm_content">
   <input type="hidden" name="utm_campaign" id="utm_campaign">
 
-  <button class="gym-button" type="submit" id="registration.submit.button" name="registration.submit.button" tabindex="5"><b>Register Now</b></button>
+  <button class="gym-button" type="submit" id="registration.submit.button" name="registration.submit.button"><b>Register Now</b></button>
 
 </form>
