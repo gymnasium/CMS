@@ -2,11 +2,12 @@
 
 /*! courtesy of https://gist.github.com/christineosazuwa/44001fca5f3e141e9a449ae4931dd278 */
 
+// modified to decode URL
 var autofill = [], hash;
-  var q = document.URL.split('?')[1];
-  if(q != undefined){
+  var q = decodeURIComponent(document.URL.split('?')[1]);
+  if (q != undefined) {
     q = q.split('&');
-    for(var i = 0; i < q.length; i++){
+    for (var i = 0; i < q.length; i++) {
       hash = q[i].split('=');
       autofill.push(hash[1]);
       autofill[hash[0]] = hash[1];
