@@ -17,7 +17,7 @@ speaker:
     - honeill
 content_category: skills
 landing: true
-register: true
+register: false
 recording: false
 video:
 webinar_ID: 5521342069689378819
