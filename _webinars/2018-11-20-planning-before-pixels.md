@@ -19,7 +19,7 @@ content_category: skills
 landing: true
 register: false
 recording: false
-video: trues
+video: true
 webinar_ID: 5521342069689378819
 webinar_question_key: 102185104
 video_ID: 2om41CWIYoQ
