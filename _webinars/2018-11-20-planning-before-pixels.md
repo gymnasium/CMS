@@ -2,7 +2,7 @@
 event_title: "Planning Before Pixels: <span class=\"nowrap\">Create with Purpose</span>"
 event_guests: "with Jen Kramer <span class=\"nowrap\">and Heather O'Neill</span>"
 page_title: "Gymnasium Webinar"
-short_description: "Learn how (and why) to take the guesswork out of designing from the authors of <cite>Before You Code</cite>, Jen Kramer and Heather O'Neill, plus our very own Jeremy Osborn. Register to attend and do your idea justice."
+short_description: "Learn how (and why) to take the guesswork out of designing from the authors of <cite>Before You Code</cite>, Jen Kramer and Heather O'Neill, plus Jeremy Osborn."
 layout: gym-event-default
 permalink: /webinars/planning-before-pixels/
 collection: webinars
