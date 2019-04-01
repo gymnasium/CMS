@@ -8,16 +8,14 @@ permalink: /webinars/prototyping-as-process/
 collection: webinars
 date: 2019-03-29
 event_date: 2019-04-30
-event_time: "2:00 PM EST"
-#recording_ogimage: prototyping-as-process-recording-og.png
-recording_ogimage: default_ogimage.png
+event_time: "2:00 PM EDT"
+recording_ogimage: prototyping-as-process-recording-og.png
 host: josborn
 speaker:
     - jbantjes
     - jyoung
 content_category: ux
-#event_ogimage: prototyping-as-process-registration-og.png
-event_ogimage: default_ogimage.png
+event_ogimage: prototyping-as-process-registration-og.png
 landing: true
 register: true
 recording: false
