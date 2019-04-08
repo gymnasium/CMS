@@ -2,7 +2,7 @@
 event_title: "UX Design: Prototyping <span class=\"nowrap\">as Process</span>"
 event_guests: "with Jenna Bantjes <span class=\"nowrap\">and James Young</span>"
 page_title: "Gymnasium Webinar"
-short_description: "Lorem the ipsum and the gypsum shall bore gems"
+short_description: "Over the years, prototyping has become an integral part of digital product development. In this webinar, you'll learn what that looks like straight from three industry leaders. Design aficionado Jeremy Osborn will be joined by UX experts, Jenna Bantjes and James Young, to discuss the ins and outs of modern design documentation and the new tools that aim to improve it."
 layout: gym-event-default
 permalink: /webinars/prototyping-as-process/
 collection: webinars
