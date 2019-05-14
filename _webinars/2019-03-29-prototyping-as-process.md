@@ -17,7 +17,7 @@ speaker:
 content_category: ux
 event_ogimage: prototyping-as-process-registration-og.png
 landing: true
-register: true
+register: false
 recording: false
 video: false
 webinar_ID: 6295135474972801793
