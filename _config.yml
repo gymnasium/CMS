@@ -12,5 +12,5 @@ collections:
         output: true
         permalink: /cms/webinars/
 
-
+github: [metadata]
 repository: gymnasium/cms
