@@ -53,6 +53,9 @@
         {% endif %}
 {% endif %}
 
+{% if page.notist_deck %}
+{% include event_slides.html %}
+{% endif %}
 {{ content }}
 </article>
 
