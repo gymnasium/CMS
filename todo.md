@@ -2,6 +2,11 @@
 
 ## Past Event Content Updates
 
+### Web Design is Hard
+
+https://drive.google.com/drive/folders/0B8-54l4izyWwZ29GY3hpYnBpbmM
+
+
 ### Right-Sizing Your Rapid Prototypes
 
 https://drive.google.com/drive/folders/0B8-54l4izyWwS0dHNV9tWkRndTA
@@ -9,11 +14,6 @@ https://drive.google.com/drive/folders/0B8-54l4izyWwS0dHNV9tWkRndTA
 **Video:** `m3az0D8mUV4`
 
 **Event Date:** 8/17/2016
-
-- [ ]bios
-- [ ]photos
-- [ ]description
-- [ ]OGs
 
 ---
 
@@ -25,11 +25,6 @@ https://drive.google.com/drive/folders/0B8-54l4izyWwWl9ld2hQZGFtTTg
 
 **Event Date:** 6/1/2016
 
-- [ ]bios
-- [ ]photos
-- [ ]description
-- [ ]OGs
--
 ---
 
 ### Designing for Understanding
@@ -40,8 +35,3 @@ https://drive.google.com/drive/folders/0B8-54l4izyWwcHBLdHVSb3k0NkE
 
 **Event Date:** 4/27/2016
 
-
-- [ ]bios
-- [ ]photos
-- [ ]description
-- [ ]OGs
