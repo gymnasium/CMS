@@ -2,7 +2,7 @@
 event_title: "Web Design is Hard"
 event_guests: "with Jeffrey Zeldman and <span class=\"nowrap\">Aaron Gustafson</span>"
 page_title: "Gymnasium Webinar"
-layout: gym-event-simple
+layout: gym-event-default
 permalink: /webinars/web-design-is-hard/
 collection: webinars
 date: 2016-09-08
