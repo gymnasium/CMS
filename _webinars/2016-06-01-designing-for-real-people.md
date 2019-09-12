@@ -1,21 +1,21 @@
 ---
-event_title: "Designing for Real People"
+event_title: "Designing for <span class=\"nowrap\">Real People:</span> <span class=\"nowrap\">Making the Case</span> for Meaningful UX"
 event_guests: "with Eric Meyer and <span class=\"nowrap\">Jim Webb</span>"
 page_title: "Gymnasium Webinar"
+short_description: "A conversation about the benefits of user research and making the case to stakeholders on how to get it done right with special guests Eric Meyer and Jim Webb."
 layout: gym-event-default
 permalink: /webinars/designing-for-real-people/
 collection: webinars
 date: 2016-06-01
 event_date: 2016-06-01
 event_time: "2PM EDT"
-short_description: "A short description goes here"
+event_ogimage: designing-for-real-people-event-og.png
+recording_ogimage: designing-for-real-people-recording-og.png
 host: josborn
 speaker:
     - emeyer
     - jwebb
-content_category: design
-event_ogimage: default_ogimage.png
-recording_ogimage: default_ogimage.png
+content_category: ux
 landing: true
 register: false
 video: true

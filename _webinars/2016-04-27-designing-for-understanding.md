@@ -1,21 +1,21 @@
 ---
-event_title: "Designing for Understanding"
+event_title: "Designing for Understanding: <span class=\"nowrap\">Create Meaningful</span> Interactions for Web <span class=\"nowrap\">and Mobile</span>"
 event_guests: "with Stephanie Hay and <span class=\"nowrap\">John Hodgins</span>"
 page_title: "Gymnasium Webinar"
+short_description: "A conversation about how content, UX, and design work together to create meaningful interactions with special guests Stephanie Hay and John Hodgins."
 layout: gym-event-default
 permalink: /webinars/designing-for-understanding/
 collection: webinars
 date: 2016-04-27
 event_date: 2016-04-27
 event_time: "2PM EDT"
-short_description: "A short description goes here"
+event_ogimage: designing-for-understanding-event-og.png
+recording_ogimage: designing-for-understanding-recording-og.png
 host: josborn
 speaker:
     - shay
     - jhodgins
-content_category: design
-event_ogimage: default_ogimage.png
-recording_ogimage: default_ogimage.png
+content_category: skills
 landing: true
 register: false
 video: true

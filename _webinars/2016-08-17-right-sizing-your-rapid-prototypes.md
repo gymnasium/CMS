@@ -1,21 +1,22 @@
 ---
-event_title: "Right-Sizing Your Rapid Prototypes"
+event_title: "Right-Sizing Your Rapid Prototypes for Web & Mobile"
 event_guests: "with Erin Young and <span class=\"nowrap\">Tracy Singleton</span>"
 page_title: "Gymnasium Webinar"
+short_description: "A conversation about choosing the appropriate fidelity of breadth, depth, and content for rapid prototyping with special guests Erin Young and Tracy Singleton."
 layout: gym-event-default
 permalink: /webinars/right-sizing-your-rapid-prototypes/
 collection: webinars
 date: 2016-08-17
 event_date: 2016-08-17
 event_time: "2PM EDT"
-short_description: "A short description goes here"
+event_ogimage: right-sizing-rapid-prototypes-event-og.png
+recording_ogimage: right-sizing-rapid-prototypes-recording-og.png
 host: josborn
 speaker:
     - eyoung
     - tsingleton
-content_category: design
-event_ogimage: default_ogimage.png
-recording_ogimage: default_ogimage.png
+content_category: ux
+
 landing: true
 register: false
 video: true
