@@ -9,8 +9,8 @@ collection: webinars
 date: 2017-02-26
 event_date: 2017-03-22
 event_time: "2PM EDT"
-event_ogimage: keeping-up-with-js-event.png
-recording_ogimage: keeping-up-with-js-recording.png
+event_ogimage: keeping-up-with-javascript-event-og.png
+recording_ogimage: keeping-up-with-javascript-recording-og.png
 host: josborn
 speaker:
     - kchisholm

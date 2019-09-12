@@ -9,13 +9,13 @@ collection: webinars
 date: 2019-03-29
 event_date: 2019-05-14
 event_time: "2:00 PM EDT"
+event_ogimage: prototyping-as-process-event-og.png
 recording_ogimage: prototyping-as-process-recording-og.png
 host: josborn
 speaker:
     - drupert
     - jyoung
 content_category: ux
-event_ogimage: prototyping-as-process-registration-og.png
 landing: true
 register: false
 recording: false

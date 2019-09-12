@@ -9,7 +9,7 @@ collection: webinars
 date: 2017-06-21
 event_date: 2017-07-17
 event_time: "2PM EDT"
-event_ogimage: design-systems-and-creativity-registration-og.png
+event_ogimage: design-systems-and-creativity-event-og.png
 recording_ogimage: design-systems-and-creativity-recording-og.png
 host: josborn
 speaker:
