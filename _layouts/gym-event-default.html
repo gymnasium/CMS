@@ -1,6 +1,8 @@
 {%- if page.permalink contains "future_web_layout" -%}
   {%- assign redirected_url = "https://thegymnasium.com/webinars/future-of-web-layout" -%}
-{%- else -%}
+  {%- elsif page.permalink contains "state-of-responsive-design" -%}
+    {%- assign redirected_url = "https://thegymnasium.com/webinars/state-of-responsive-web-design" -%}
+  {%- else -%}
   {%- assign redirected_url = page.permalink | prepend: "https://thegymnasium.com" -%}
   {%- assign last_char = redirected_url | slice: -1 -%}
   {%- if last_char =="/" -%}
